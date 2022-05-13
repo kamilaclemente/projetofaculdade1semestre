@@ -1,0 +1,422 @@
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 100%;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+h1 {
+    color: #666666;
+     font-family: "Segoe UI Semibold", 'Segoe UI', sans-serif; 
+    font-weight: 400;
+     font-size: 36px;
+    margin-left: 15px;
+    
+}
+
+
+
+header{
+    width:97vw;
+      
+}
+
+
+
+#nospace {
+    color: black;
+    margin-top: 0px;
+}
+
+.linha {
+    text-decoration:  #00A9B0;
+}
+
+.logo {
+   width: 15vw;
+   height: auto;
+}
+
+#menu {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px; 
+    color: #FFFFFF; background-color: #00A9B0;
+    width: 97vw;
+    padding: .65vw;
+	/*overflow: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#menu2 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+	float: left;
+	display: block;
+}
+
+
+
+#busca #txtBusca{
+    float:right;
+    background-color:white;
+    padding:5px;
+    margin-left:25px ;
+    font-size:18px;
+    height:32px;
+    width:190px;
+    border-radius:7px 0px 0px 7px;
+  }
+
+#btnBusca{
+    border: solid 1px white;
+    float:right;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    margin-right:25px ;
+    width:70px;
+    font-weight:bold;
+    background: #00A9B0;
+  }
+
+#submenu {
+    display:inline-block;
+	margin-left: 1vw;
+    
+}
+
+#menu3 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#txtBusca {
+    font-family: "Segoe UI" Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    background-image: url("img/busca2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+    border:solid 1px white;
+    border-radius:15px;
+    width: 267px;
+    height: 30px;
+    text-indent: 20px;
+}
+
+.title {
+	display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    width: 97vw;
+    
+}
+
+#conteudo1 {
+    background-color: #666666;
+    background-image: url("img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between ;
+    width: 56vw;
+    height: 45vw;
+	margin-top: 1.4vw;
+    margin-left: 0.3vw;
+    border-radius: 1vw;
+	display: inline-block;
+ } 
+
+#conteudocentral {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-weight: 400; font-size: 2vw;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7vw;
+
+}
+
+#conteudo2 {
+    background-color: #EFEFEF;
+    align-content: center;
+    width: 97vw;
+    height: 15vw;
+	margin-top: 1.4vw;
+    border-radius: 15px;
+	display: inline-block;
+
+    /*
+    width:100%;
+    height: 210px;
+    margin-left: 3px;
+    border-radius: 15px;
+    */
+}
+
+#box-lateral {
+    font-size: x-larger;
+    text-align: center;
+    background-color: #EFEFEF;
+    width: 50%;
+    height: 45vw;
+    border-radius: 15px;
+    margin-top: 1.4vw;
+    margin-right: 1vw;
+	padding-left: 1vw;
+}
+
+#nospace {
+    font-size: 3vw;
+    position: relative;
+    top: 8vw;
+}
+ 
+p {
+    top: 10vw;
+    position: relative;
+    font-size: 1.5vw;
+}
+
+select {
+    padding: 1px;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+
+label {
+    font-size: 2vw;
+}
+
+
+
+
+p > a {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; font-size: 14px;
+    color: #666666;
+    float: right;
+    
+}
+
+.botao1 {
+    background-color: #00A9B0;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+}
+
+.botao1:hover {
+    background-color: #00aab0a8;
+    border-radius: 5px;
+    border-color: #00A9B0;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+}
+
+
+
+
+.row {
+	display: flex; 
+	justify-content: space-between;	
+}
+
+@media only screen and (max-width: 768px ) {
+	.centralizar {
+		font-size: 4vw;
+		text-align: center;
+	}
+
+    #menu  {
+		float: none;
+		width: 98%;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 100%;
+	}
+	
+	#conteudo1 {
+		width: 96vw;
+		height: 55vw;
+    }	
+
+    #conteudo2 {
+        width: 96vw;
+		height: 60vw;
+        
+    }
+
+    #conteudointro {
+        font-size: 3.5vw;
+    }
+
+    #nospace {
+        position: relative;
+        top: 8vw;
+    }
+
+    #nospace {
+        font-size: 3vw;
+        position: relative;
+        top: 8vw;
+    }
+     
+    p {
+        top: 10vw;
+        position: relative;
+        font-size: 4vw;
+    }
+    
+    select {
+        padding: 1px;
+        font-size: 2.5vw;
+        border-radius: 5px;
+        border: none;
+        text-decoration: none;
+    }
+    
+    label {
+        font-size: 4vw;
+    }
+    
+    
+	
+	.row {
+		display: block; 
+	}
+
+    #conteudocentral {
+        margin-top: 1vw;
+    }
+	
+	#box-lateral {
+		width: 95vw;
+		height: 64vw;
+	}
+	
+
+
+    #nospace {
+        font-size: 5.1vw;
+    }
+
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 375px  ) {
+	.centralizar {
+		font-size: 5vw;
+		text-align: center;
+	}
+
+    #menu  {
+		float: none;
+		width: 98%;
+	}
+	
+	#menu2  {
+		float: none;
+		width: 70%;
+        font-size: 14px;
+	}
+	
+	#conteudo1 {
+		width: 100vw;
+		height: 45vw;
+    }	
+
+    #conteudo2 {
+        width: 96vw;
+		height: 60vw;
+        
+    }
+
+   
+	
+	.row {
+		display: block; 
+	}
+
+    #conteudocentral {
+        margin-top: -3vw;
+        font-size: 12px;
+    }
+	
+	#box-lateral {
+		width: 95vw;
+		height: 74vw;
+	}
+	
+
+    #nospace {
+        font-size: 5.1vw;
+    }
+
+    .linha {
+        font-size: 5.1vw;
+    
+    }
+
+
+    p > a {
+        margin-right: 0vw;
+        float: none;
+
+    }
+
+
+
+    #busca #txtBusca{
+        font-size:18px;
+        height:30px;
+        width:100px;
+        margin: 0 25px 0px 0px;
+     
+      }
+    
+    #btnBusca{
+        height:30px;
+        width:70px;
+        margin: 0 25px 0px 0;
+
+        
+        
+    }
+
+    .botao1 {
+       width: 170px;
+       height: 30px;
+       margin:  20px 20px 0px 0px;
+    }
+
+    #txtbuscar{
+    
+        font-size: 10;
+
+
+    }
+
+     
+        
+
+}
