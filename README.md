@@ -43,10 +43,6 @@ Para ter acesso ao site, basta acessar o link https://icei-puc-minas-pmv-ads.git
 <li><a href="docs/10-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
