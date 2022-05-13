@@ -8,7 +8,7 @@
 
 Projeto desenvolvido para o trabalho do 1º semestre do Curso de Análise e Desenvolvimento de Sistemas da PUC Minas.
 
-O objetivo geral do trabalho foi a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
+O objetivo geral do trabalho foi a criação de um site estático que reúnia pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
 
 O projeto Website foi feito em HTML, CSS e JS.
 
