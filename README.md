@@ -6,14 +6,16 @@
 
 `2021/2`
 
-O objetivo geral deste trabalho é a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
+Projeto desenvolvido para o trabalho do 1º semestre do Curso de Análise e Desenvolvimento de Sistemas da PUC Minas.
 
-O projeto Website sera feito em HTML, CSS e JS.
+O objetivo geral do trabalho foi a criação de um site que reúna pontos de atendimento médico gratuito, apresentando à população outras opções de atendimento médico além do que é disponibilizado pelo SUS.
+
+O projeto Website foi feito em HTML, CSS e JS.
 
 ## Integrantes
 
-* Hugo Vinicius Damasceno Pinto
 * Camila Jardins Francisco
+* Hugo Vinicius Damasceno Pinto
 * Kamila Clemente de Assis
 * Rafael Mautone Costa
 * Tarcisio Junio Amaral de Almeida
@@ -24,7 +26,7 @@ O projeto Website sera feito em HTML, CSS e JS.
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para ter acesso ao site, basta acessar o link https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t2-ads_2021_02_e1_grupo_03/index.html.
 
 # Documentação
 
